@@ -1,0 +1,32 @@
+{
+  "name": "gulp-js-xlsx",
+  "version": "0.1.2",
+  "description": "xlsx to json using gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "debug": "node-debug _mocha"
+  },
+  "keywords": [
+    "gulp",
+    "js-xlsx",
+    "xls",
+    "xlsx",
+    "json"
+  ],
+  "dependencies": {
+    "gulp-util": "~2.2.0",
+    "map-stream": "0.0.4",
+    "gulp": "~3.5.2",
+    "xlsx": "~0.5.5",
+    "gulp-rename": "~1.1.0"
+  },
+  "author": {
+    "name": "Jeffrey Woo",
+    "url": "http://github.com/jltwoo"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  }
+}
