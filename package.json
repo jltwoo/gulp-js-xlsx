@@ -1,6 +1,6 @@
 {
   "name": "gulp-js-xlsx",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "xlsx to json using gulp",
   "main": "./lib/index.js",
   "scripts": {
