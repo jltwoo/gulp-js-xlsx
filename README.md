@@ -67,18 +67,19 @@ Specifies the parsing method for each workSheet
 ```
 
 `"tree"`  
-| NodeKey	|	NodeValue |	ParentKey |
+
+| NodeKey	|	NodeValue |	ParentKey |  
 | ------|------ |------|
-|1 |	1	|
-|2 |	1.1	|1
-|3 |	2	|
-|4 |	2.1	|3
-|5 |	2.1.1	|4
-|6 |	1.2	1|
-|7 |	1.2.1	|6
-|8 |	2.2	3|
-|9 |	1.2.2|	6
-|10 |	2.3	3|
+|1 |	1	|  |
+|2 |	1.1	|1 |
+|3 |	2	| |
+|4 |	2.1	|3 |
+|5 |	2.1.1	|4 |
+|6 |	1.2	|1|
+|7 |	1.2.1	|6 |
+|8 |	2.2	|3|
+|9 |	1.2.2|	6 |
+|10 |	2.3| 	3|
 
 ```
 {
@@ -115,8 +116,9 @@ Specifies the parsing method for each workSheet
 ```
 
 `"dictionary"`  
-|KEY |	EN_US  | EN_UK |
-| ------|------ |------|
+
+|KEY |	EN_US  | EN_UK | 
+| ------|------ |------| 
 |FAVOURITE |	favorite |	favourite |
 |COLOR |	color |	colour |
 |ALUMINIUM |	aluminum |	aluminium |
@@ -124,6 +126,7 @@ Specifies the parsing method for each workSheet
 |SOCIALIZE |	socialise |	socialize |
 |MISSING_US |	|	britain  |
 |MISSING_UK |	american |	 |  
+
 ```
 {
 	"Sheet1": {
