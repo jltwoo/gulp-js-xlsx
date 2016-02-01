@@ -1,8 +1,8 @@
 {
   "name": "gulp-js-xlsx",
-  "version": "0.1.2",
+  "version": "0.1",
   "description": "xlsx to json using gulp",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "mocha",
     "debug": "node-debug _mocha"

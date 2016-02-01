@@ -66,7 +66,7 @@ Specifies the parsing method for each workSheet
 }
 ```
 
-`"tree"`
+`"tree"`  
 | NodeKey	|	NodeValue |	ParentKey |
 | ------|------ |------|
 |1 |	1	|
@@ -159,10 +159,8 @@ gulp.task('default', function () {
 		.pipe(gulpXlsx.run({
 			parseWorksheet: function(worksheet){
 				var array = xlsx.utils.sheet_to_row_object_array(worksheet);
-
 				// Perform your own custom parsing here...  
 				// if nothing is done here, it's same as 'row_array'
-
 				return 	array;
 			}
 		}))
